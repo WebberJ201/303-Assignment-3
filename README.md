@@ -1,40 +1,11 @@
-# Queue Data Structure, Recursive Search, and Insertion Sort
+Assignment 2
 
+The following files are my submission for COMP SCI 303's "Assignment 3", which showcases a queue data structure + queue functions, a recursive search function, and an insertion sort function.
 
-This project implements three core components in C++:
+TABLE OF CONTENTS:
 
-1. **Template Queue Class** — A generic queue implemented using a singly linked list.
-2. **Recursive Linear Search** — Finds the last occurrence of a value in a vector.
-3. **Insertion Sort on Queue** — Sorts a queue of integers using insertion sort logic.
-
-All functionality is implemented using clean object-oriented design with separate header and implementation files.
-
----
-
-## 🧠 Features
-
-### ✅ Queue Class (`Queue.h`, `Queue.cpp`)
-- Template class for any data type.
-- Supports the following operations:
-  - `push()`
-  - `pop()`
-  - `front()`
-  - `size()`
-  - `empty()`
-  - `move_to_rear()` – moves the front element to the rear
-  - `display()` – helper to print all elements without altering order
-
-### ✅ Recursive Search (`functions.h`, `functions.cpp`)
-- Function: `int recursive_last_index(const std::vector<int>& vec, int target, int index)`
-- Searches for the **last occurrence** of a target in a vector using recursion.
-
-### ✅ Insertion Sort (`functions.h`, `functions.cpp`)
-- Function: `void insertion_sort(Queue<int>& q)`
-- Sorts the queue in ascending order by moving elements into a temporary vector.
-
----
-
-## 🛠 How to Compile
-
-```bash
-g++ main.cpp Queue.cpp functions.cpp -o program
+- 301Assignment3.cpp: The main body of the code, which utilizes the Queue functionality.
+- Functions.cpp: Contains the code for Step 2 (Recursion Function) and Step 3 (Insertion Function)
+- Functions.h: Contains the header file for functions used in Functions.cpp.
+- Queue.cpp: Contains the code used for the Queue data structure and all of its functions.
+- Queue.h: Contains the declarations for the Queue data structure and all of its functions.
