@@ -1,4 +1,4 @@
-Assignment 2
+Assignment 3
 
 The following files are my submission for COMP SCI 303's "Assignment 3", which showcases a queue data structure + queue functions, a recursive search function, and an insertion sort function.
 
