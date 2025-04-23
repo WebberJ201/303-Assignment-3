@@ -9,3 +9,5 @@ TABLE OF CONTENTS:
 - Functions.h: Contains the header file for functions used in Functions.cpp.
 - Queue.cpp: Contains the code used for the Queue data structure and all of its functions.
 - Queue.h: Contains the declarations for the Queue data structure and all of its functions.
+  
+![image](https://github.com/user-attachments/assets/3643b16b-163f-47a4-af1f-1a6df175e728)
